@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.card:hover {
+  background-color: lightblue;
+}
+
+h2 a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+}
+
+h1:hover {
+  background-color: antiquewhite;
+}
+
+h1 span {
+  color: deeppink;
+}
+
+h3 {
+  text-align: center;
+}
+
+@media (max-width: 375px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
